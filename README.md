@@ -23,13 +23,13 @@ Ionic packages a set of view lifecycle hooks into the `NavController` – part
 
 ## Instalação:
 
-### Primeiro clone o repo:
+### 1 - Primeiro clone o repo:
 
 ```shell
 $ git clone https://github.com/Rithie/My-Ionic-SandBox-Estudos-.git && cd My-Ionic-SandBox-Estudos-
 ```
 
-### Instale as dependências:
+### 2 - Instale as dependências:
 
 ```sh
 $ npm install
