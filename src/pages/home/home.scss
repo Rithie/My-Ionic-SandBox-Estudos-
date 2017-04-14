@@ -1,0 +1,68 @@
+.ios, .md {
+          page-home {
+                    /* modifies the page's background: */
+                        // .toolbar-background{
+                        //     background-color: map-get($colors , dark ) !important;
+                            
+                        // }
+                        /*modifies the header title's color*/
+                        ion-title{
+                            .toolbar-title{
+                                color: map-get($colors , primary) !important;
+                            }
+                        }
+                        button{
+                            .button-effect{
+                          
+                                color: map-get($colors , secondary) !important;
+                            
+                            }
+
+                        }
+                        ion-card{
+                            box-shadow: none;
+                            
+                            ion-card-header{
+                                max-height: 155px;
+                                padding: 0px; 
+                                margin-bottom: 10px;
+                                img{
+                                    margin-bottom: 10px;
+                                }
+                                ion-icon{
+                                        line-height: 14px;
+                                        color: map-get($colors , primary);
+                                        position: relative;
+                                        top: -40px;
+                                        right: 15px;
+                                        background-color: #fff;
+                                        border-radius: 20px;
+                                        padding: 11px;
+                                        float: right;
+                                }
+                                div.title{
+                                    // border: 1px solid;
+                                        padding: 15px 10px 1px 10px;
+                                        line-height: 14px;
+                                        color: map-get($colors , primary);
+                                        font-weight: 600;
+                                        text-transform: uppercase;
+                                        position: relative;
+                                        top: -40px;
+                                        left: 15px;
+                                        background-color: #fff;
+                                        display: inline-block;
+                                }
+                            }
+                            ion-card-content{
+                                color: #808080;
+                                padding-left: 25px;
+                                font-size: 0.8em;
+                            }
+                        }
+                           
+                         
+
+                 
+            }
+}

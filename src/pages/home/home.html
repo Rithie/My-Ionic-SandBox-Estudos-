@@ -1,0 +1,22 @@
+<ion-header no-border>
+  <ion-navbar  color="light">
+    <button color="primary" ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card *ngFor="let item of items">
+      <ion-card-header>
+        <img [src]="item.imageURL" alt="">
+        <div class="title">{{ item.title }}</div>
+        <ion-icon [name]="item.icon" [isActive]="isActive"></ion-icon>
+      </ion-card-header>
+      <ion-card-content>
+        SAB 9.7.2017, Rio Pombas, BRA
+      </ion-card-content>
+  </ion-card>
+  <!-- <button ion-button secondary menuToggle>Toggle Menu</button> -->
+</ion-content>
